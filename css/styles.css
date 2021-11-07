@@ -9,6 +9,8 @@
   --nav-color: #212121;
   --hero-btn-color: #ffffff;
   --hero-btn-bckgr: #2196f3;
+  --works-btn-color: #212121;
+  --works-btn-bckgr: #f5f4fa;
   --accent-color: #2196f3;
 }
 
@@ -34,7 +36,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-first-color);
-  cursor: pointer;
 }
 
 .logo-web {
@@ -47,7 +48,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-color);
-  cursor: pointer;
 }
 
 .nav-item:hover,
@@ -59,17 +59,16 @@ body {
   color: var(--accent-color);
 }
 
-.header-mail,
-.header-tel {
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  cursor: pointer;
 }
 
-.header-mail {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
 }
 
@@ -115,7 +114,6 @@ body {
 }
 
 .adv-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -154,7 +152,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -174,17 +171,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-second-color);
-  cursor: pointer;
-}
-
-.footer-contact {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
 }
 
 .address {
@@ -197,4 +183,54 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer-contact {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/* ------PORTFOLIO------ */
+.works-btn {
+  font-family: inherit;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--works-btn-color);
+  background-color: var(--works-btn-bckgr);
+  cursor: pointer;
+}
+
+.works-btn:hover,
+.works-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.works-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--third-title-color);
+}
+
+.works-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
