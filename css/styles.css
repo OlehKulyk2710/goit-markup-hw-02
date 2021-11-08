@@ -213,6 +213,7 @@ body {
 /* ------PORTFOLIO------ */
 .works-btn {
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
